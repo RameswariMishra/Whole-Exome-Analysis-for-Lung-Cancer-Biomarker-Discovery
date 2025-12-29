@@ -174,6 +174,24 @@ These pathways are well-established contributors to tumor growth, angiogenesis, 
 - **Pathway Analysis:** PANTHER
 
 - **Visualization & Filtering:** Python (pandas, matplotlib)
+- 
+## Repository Structure
+```
+lung-cancer-wes-analysis/
+│
+├── reports/
+│   └── Whole_Exome_Lung_Cancer_Biomarker_Report.pdf
+│
+├── scripts/
+│   ├── README.md
+│   └── pipeline_commands.sh 
+│
+├── notebooks/
+│   └── variant_postprocessing.ipynb 
+│
+├── README.md
+└── .gitignore
+```
 
 ## Impact & Relevance
 
