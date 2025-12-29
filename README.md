@@ -143,3 +143,67 @@ Among the top 20 mutated genes, several are strongly linked to lung cancer, incl
 
 - CHD4 (broad oncogenic relevance)
 
+## Pathway & Functional Analysis
+
+Using PANTHER Pathway Analysis, affected genes were found to be involved in key cancer-related pathways:
+
+- PI3K signaling pathway
+
+- VEGF signaling pathway
+
+- Wnt signaling pathway
+
+- p53 pathway feedback loops
+
+- Inflammation mediated by chemokine and cytokine signaling
+  
+These pathways are well-established contributors to tumor growth, angiogenesis, immune modulation, and cancer progression.
+
+## Tools & Technologies
+
+- **Languages:** Python, Bash
+
+- **Alignment:** BWA-MEM
+
+- **Processing:** SAMtools, GATK
+
+- **Variant Calling:** Mutect2, BCFtools
+
+- **Annotation:** VEP
+
+- **Pathway Analysis:** PANTHER
+
+- **Visualization & Filtering:** Python (pandas, matplotlib)
+
+## Impact & Relevance
+
+- **Supports early cancer detection efforts** by demonstrating how whole-exome sequencing can be used to identify tumor-specific somatic variants and biologically relevant pathways associated with early-stage lung cancer.
+
+- **Contributes to precision oncology research** by highlighting candidate genes and pathways that may inform future biomarker discovery, risk stratification, and targeted therapeutic strategies.
+
+- **Demonstrates the value of genomics in healthcare decision-making**, showing how large-scale sequencing data can be translated into biologically and clinically meaningful insights.
+
+- **Promotes data-driven cancer research pipelines**, integrating bioinformatics, data processing, and biological interpretation in a reproducible and scalable workflow.
+
+- **Relevant for healthcare and research domains**, including Bioinformatics, Genomics, Translational Cancer Research, Precision Medicine, and Healthcare Analytics.
+
+## Limitations & Future Work
+### Limitations
+
+- Small sample size limited mutation discovery
+
+- Analysis focused on selected chromosomes rather than whole genome
+
+### Future Work
+
+- Expand to larger cohorts and full-exome datasets
+
+- Integrate RNA-seq for expression-level validation
+
+- Apply machine learning to prioritize biomarkers
+
+- Validate findings using independent clinical datasets
+
+## Author
+
+Rameswari Mishra
