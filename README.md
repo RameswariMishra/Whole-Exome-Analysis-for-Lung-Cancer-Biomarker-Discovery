@@ -181,10 +181,7 @@ lung-cancer-wes-analysis/
 │
 ├── reports/
 │   └── Whole_Exome_Lung_Cancer_Biomarker_Report.pdf
-│
-├── scripts/
-│   ├── README.md
-│   └── pipeline_commands.sh 
+|   ├── README.md
 │
 ├── notebooks/
 │   └── variant_postprocessing.ipynb 
